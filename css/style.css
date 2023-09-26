@@ -1,0 +1,46 @@
+.head{
+    color: rgb(33, 33, 133);
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    padding: 20px 30px;
+    font-size: 25px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 10px;
+}
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.center__img img{
+    width: 50%;
+    height: 50%;
+    margin-top: 90px;
+    margin-left: 900px;
+    display: block;
+}
+.foot{
+    font-size: 80px;
+    margin-top: -155px;
+}
+.foot-box{
+    display: grid;
+    grid-template-rows: 0 200px;
+    grid-template-columns: 3fr 1fr;
+}
+.box{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(31, 31, 125);
+    z-index: -10;
+
+}
