@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-between;
 }
-h1{
+.head__ttl{
     padding: 20px 30px;
     font-size: 25px;
 }
-li{
+.head__item{
     list-style: none;
     display: inline-block;
     font-size: 15px;
@@ -17,7 +17,7 @@ li{
 a {
     text-decoration: none;
 }
-img{
+.center__img{
     max-width: 100%;
     height: auto;
 }
@@ -25,7 +25,7 @@ img{
     width: 50%;
     height: 50%;
     margin-top: 90px;
-    margin-left: 900px;
+    margin-left: auto;
     display: block;
 }
 .foot{
